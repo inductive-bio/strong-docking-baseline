@@ -29,7 +29,7 @@ You can retrieve the docker image from Docker Hub with the following command:
 docker pull inductivebio/docking-baseline:1.0.0
 ```
 
-If you'll be running on a GPU-enabled machine (recommended), ensure you've installed the [nvidia container toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html) so that the docker container can access your GPU. If you encounter issues with the GPU disconnecting, try the solution [here](https://github.com/NVIDIA/nvidia-container-toolkit/issues/48).
+If you'll be running on a GPU-enabled machine (recommended), ensure you've installed the [nvidia container toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html) so that the docker container can access your GPU. (Make sure you follow both the "Installation" and "Configuration" sections.) If you encounter issues with the GPU disconnecting, try the solution [here](https://github.com/NVIDIA/nvidia-container-toolkit/issues/48).
 
 ### Non-docker setup
 
